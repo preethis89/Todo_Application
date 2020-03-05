@@ -1,3 +1,13 @@
-.container .list-group{
+.container .list-group {
  padding-top: 20px;
 }
+.checkbox{
+    padding: 50px 50px 50px 50px;
+}
+.form-check-input:checked + span {
+    text-decoration: line-through;
+}
+.strikethrough:checked + span{
+    text-decoration:line-through red
+    
+  }
