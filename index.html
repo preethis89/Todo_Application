@@ -28,47 +28,49 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Stats</a>
                 </li>
-                
+
             </ul>
 
         </div>
     </nav>
-    
-    <div class="container" id ="myDIV">
+
+    <div class="container" id="myDIV">
         <div class="row">
             <!-- desktop screen 4/12 -->
             <!-- mobile screen 12/12 -->
             <div class="col-12 col-md-4">
-                 <div class="list-group">
-                  
-                    
-                    <a href="./lifestyle.html" class="list-group-item list-group-item-action list-group-item-info">Lifestyle</a>
-                    <a href="./Pd.html" class="list-group-item list-group-item-action list-group-item-info">Personal Develpoment</a>
+                <div class="list-group">
+
+
+                    <a href="./lifestyle.html"
+                        class="list-group-item list-group-item-action list-group-item-info">Lifestyle</a>
+                    <a href="./Pd.html" class="list-group-item list-group-item-action list-group-item-info">Personal
+                        Develpoment</a>
                     <a href="#" class="list-group-item list-group-item-action list-group-item-info">Work</a>
                     <a href="#" class="list-group-item list-group-item-action list-group-item-info">Travel</a>
-                    
-                  </div>
-                  
+
+                </div>
 
 
 
-                
+
+
             </div>
-            
-            </div>
+
         </div>
-        <script>
-            // Add active class to the current button (highlight it)
-            var header = document.getElementById("myDIV");
-            var btns = header.getElementsByClassName("list-group-item list-group-item-action list-group-item-info");
-            for (var i = 0; i < btns.length; i++) {
-              btns[i].addEventListener("click", function() {
-              var current = document.getElementsByClassName("active");
-              current[0].className = current[0].className.replace(" active", "");
-              this.className += " active";
-              });
-            }
-            </script>
+    </div>
+    <script>
+        // Add active class to the current button (highlight it)
+        var header = document.getElementById("myDIV");
+        var btns = header.getElementsByClassName("list-group-item list-group-item-action list-group-item-info");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+    </script>
 
 
 </body>
