@@ -63,19 +63,19 @@
                     <label>
                         <input type="checkbox" name="packersOff" class="strikethrough" value="1"
                             onclick="countTaskItem(this)">
-                        <span>Read for 20 mins</span>
+                        <span>Go for a walk</span>
                     </label><br>
 
                     <label>
                         <input type="checkbox" name="packersOff" class="strikethrough" value="1"
                             onclick="countTaskItem(this)">
-                        <span>Listen to Podcast</span>
+                        <span>Take vitamins</span>
                     </label><br>
 
                     <label>
                         <input type="checkbox" name="packersOff" class="strikethrough" value="1"
                             onclick="countTaskItem(this)">
-                        <span>Listen to World News</span>
+                        <span>Yoga</span>
                     </label><br>
                 </div>
                 <input type="text" id="myInput" placeholder="Add new task">
@@ -154,8 +154,8 @@
                 if ((inputTag[i].type) == 'checkbox' && inputTag[i].checked == false)
                     count++;
             }
-            var x = document.getElementById("pd").textContent.split("(");
-            document.getElementById("pd").innerText = x[0] + "(" + count + ")";
+            var x = document.getElementById("Lifestyle").textContent.split("(");
+            document.getElementById("Lifestyle").innerText = x[0] + "(" + count + ")";
 
 
 
