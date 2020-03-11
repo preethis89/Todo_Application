@@ -17,7 +17,7 @@
     
   }
   .close:hover {
-    background-color: #45aded;
+    background-color: #1b9ad1;
     color: white;
   }
   .close{
@@ -38,10 +38,19 @@
   }
   
   .addBtn:hover {
-    background-color: #0c5460;
+    background-color:#1b9ad1;
     color : white;
   }
   #myInput{
       margin: 10px;
   }
+  .list-group-item-info.list-group-item-action.active {
+    color: #fff;
+    background-color: #1b9ad1;
+    border-color: #1b9ad1;
+}
+.list-group-item-info {
+    color: #3a3a3a;
+    background-color: #75d2fa;
+}
   
