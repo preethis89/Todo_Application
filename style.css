@@ -53,4 +53,8 @@
     color: #3a3a3a;
     background-color: #75d2fa;
 }
+.card{
+    border: none;
+   margin-left: 40px;
+}
   
